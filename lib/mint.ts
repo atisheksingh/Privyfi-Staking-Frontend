@@ -7,7 +7,7 @@ export async function mint(USER_ID: string, amount = 10): Promise<void> {
     WebClient,
     AccountId,
     NoteType,
-    Account,
+    // Account,
     // TransactionProver,
     AccountStorageMode
   } = await import("@demox-labs/miden-sdk");
